@@ -1,0 +1,526 @@
+.bg-header {
+    background: #F0D093;
+}
+
+.custom-navbar {
+    position: absolute;
+    z-index: 99;
+    width: 94%;
+    left: 3%;
+    margin: auto;
+    background-color: transparent !important;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.trip-advisor-box {
+    background: #FFFFFF;
+    display: inline-block;
+    padding: 7px 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #181C2A;
+}
+
+.trip-advisor-box:hover {
+    color: #F2D295;
+}
+
+.top-header-nav-item {
+    /* padding: 1px 18px; */
+
+    padding: 7px 27px 7px 0;
+
+
+}
+
+.top-header-nav-item .tophd-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #161616;
+}
+
+.top-header-nav-item .tophd-link:hover {
+    color: #fff;
+}
+
+.trip-icn {
+    width: 35px;
+}
+
+.tom-mail-icn,
+.tom-call-icn {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+    width: 35px;
+}
+
+.navbar-brand {
+    position: relative;
+    display: block;
+}
+
+.header-logo {
+    width: 137px;
+    height: 128px;
+    margin: -28px;
+    margin-left: -4px;
+}
+
+.enquirt-btn {
+    background: linear-gradient(180deg, #FFFFFF 0%, #E9C88A 100%);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #181C2A;
+    border: none;
+    border-radius: 0;
+    padding: 15px;
+
+}
+
+.enquirt-btn:hover {
+    background: linear-gradient(180deg, #E9C88A 0%, #FFFFFF 100%);
+    /* font-weight: 600; */
+}
+
+.navbar-nav .nav-item {
+    padding: 7px 8px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: 400;
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+    color: #FFFFFF;
+    font-style: normal;
+
+
+
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #F2D295;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #F2D295;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "\f078";
+    display: none;
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.fixed-custom-navbar {
+
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    left: 0;
+    margin: auto;
+    background-color: #181c2a !important;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+/* .cstm-dropdownmenu {
+
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 62rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    left: -288px !important;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0.25rem;
+    top: 79px !important;
+} */
+.cstm-dropdownmenu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 75rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    left: -404px !important;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0.25rem;
+    top: 75px !important;
+}
+
+.cstm-dropdownmenu-2 {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 75rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0.25rem;
+    position: absolute;
+    left: -32rem;
+    top: 76px;
+
+
+
+
+}
+
+
+/* .dropdown:hover .cstm-dropdownmenu-2 {
+    display: inline-block;
+    z-index: 1000;
+    
+} */
+
+
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -32rem;
+    /* margin-top: 1.4rem; */
+}
+
+.br-rgt {
+    border-right: 1px solid #D9D9D9;
+
+}
+
+.dropdwn-imgbox {
+    padding: 25px;
+}
+
+.ml-135 {
+    margin-left: 135px;
+}
+
+.tours-list-box .tour-nav-item {
+    padding: 8px;
+    border-bottom: 1px dashed #999999;
+
+}
+
+.tours-list-box .tour-nav-item .tour-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #676767;
+
+
+}
+
+.tours-list-box .tour-nav-item .tour-link:hover {
+    color: #F2D295;
+}
+
+.tours-list-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #181C2A;
+
+}
+
+.tours-list-title:hover {
+    color: #F2D295;
+}
+
+.tour-bx {
+    height: 343px;
+    overflow-y: scroll;
+    padding: 0px 15px 0 0px;
+
+}
+
+.tour-bx::-webkit-scrollbar {
+    width: 4px;
+    background: #F2D295;
+    border-radius: 6px;
+
+}
+
+
+.tour-bx::-webkit-scrollbar-thumb {
+    background: #181C2A;
+    border-radius: 6px;
+
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.br-left {
+    border-left: 1px solid #D9D9D9;
+}
+
+.image-big-list-item.active {
+    display: block;
+}
+
+.image-big-list-item {
+    display: none;
+    /* custom */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar-toggler-icon {
+    color: #000000;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+@media screen and (min-width:992px) {
+    .dropdown:hover .cstm-dropdownmenu-2 {
+        display: inline-block;
+        z-index: 1000;
+
+    }
+    .dropdown:hover .cstm-dropdownmenu {
+
+        display: inline-block;
+        z-index: 1000;
+    
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .ml-135 {
+        margin-left: 10px;
+    }
+
+    .header-logo {
+        width: 196px;
+        height: 138px;
+        margin: -35px;
+        margin-left: -5px;
+    }
+
+    .fixed-custom-navbar {
+        position: absolute;
+        z-index: 99;
+        width: 100%;
+        left: 0;
+        padding: 10px !important;
+        margin: auto;
+        background-color: #181c2a !important;
+        border-bottom: 1px solid #FFFFFF;
+    }
+
+    .enquirt-btn {
+        background: linear-gradient(180deg, #FFFFFF 0%, #E9C88A 100%);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #181C2A;
+        border: none;
+        border-radius: 0;
+        padding: 13px 9px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .custom-navbar {
+        position: absolute;
+        z-index: 99;
+        width: 100%;
+        left: 0;
+        margin: auto;
+        background-color: #181c2a !important;
+        border-bottom: 1px solid #FFFFFF;
+    }
+
+    .ml-135 {
+        margin-left: 10px;
+    }
+
+    .cstm-dropdownmenu {
+        position: absolute;
+        z-index: 1000;
+        display: none;
+        min-width: 34rem;
+        padding: 0.5rem 0;
+        margin: 0;
+        left: -404px !important;
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .15);
+        border-radius: 0.25rem;
+        top: 75px !important;
+    }
+
+    .cstm-dropdownmenu {
+        position: absolute;
+        z-index: 1000;
+        display: none;
+        min-width: 62rem;
+        padding: 0.5rem 0;
+        margin: 0;
+        left: -329px !important;
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .15);
+        border-radius: 0.25rem;
+        top: 79px !important;
+        height: 500px;
+        overflow-y: scroll;
+    }
+
+    .tour-bx {
+        height: 100%;
+        overflow-y: hidden;
+        padding: 0px 15px 0 0px;
+    
+    }
+    
+    .tour-bx::-webkit-scrollbar {
+        width: 4px;
+        background: #F2D295;
+        border-radius: 6px;
+    
+    }
+    
+    
+    .tour-bx::-webkit-scrollbar-thumb {
+        background: #181C2A;
+        border-radius: 6px;
+    
+    }
+
+
+    .cstm-dropdownmenu::-webkit-scrollbar {
+        width: 4px;
+        background: #F2D295;
+        border-radius: 6px;
+        
+    }
+    .cstm-dropdownmenu::-webkit-scrollbar-thumb {
+        background: #181C2A;
+        border-radius: 6px;
+        
+    }
+
+
+
+    .cstm-dropdownmenu-2 {
+        position: absolute;
+        z-index: 1000;
+        display: none;
+        min-width: 11rem;
+        padding: 0.5rem 0;
+        margin: 0;
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .15);
+        border-radius: 0.25rem;
+        position: absolute;
+        left: -32rem;
+        top: 76px;
+        height: 500px;
+        overflow-y: scroll;
+    }
+
+    .cstm-dropdownmenu-2::-webkit-scrollbar {
+        width: 4px;
+        background: #F2D295;
+        border-radius: 6px;
+        
+    }
+    .cstm-dropdownmenu-2::-webkit-scrollbar-thumb {
+        background: #181C2A;
+        border-radius: 6px;
+        
+    }
+}
+
+@media screen and (max-width:576px) {
+    .header-logo {
+        width: 147px;
+        height: 128px;
+        margin: -28px -17px;
+    }
+
+    .custom-navbar {
+        position: absolute;
+        z-index: 99;
+        width: 100%;
+        left: 0;
+        margin: auto;
+        background-color: #181c2a !important;
+        border-bottom: 1px solid #FFFFFF;
+    }
+
+    .ml-135 {
+        margin-left: 4px;
+    }
+
+    .cstm-dropdownmenu {
+        position: absolute;
+        z-index: 1000;
+        display: none;
+        min-width: 5rem;
+        padding: 0.5rem 0;
+        margin: 0;
+        left: -288px !important;
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .15);
+        border-radius: 0.25rem;
+        top: 79px !important;
+    }
+
+    .br-rgt {
+        display: none;
+    }
+
+    .navbar-toggler-icon {
+        color: #000000;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    }
+
+}
