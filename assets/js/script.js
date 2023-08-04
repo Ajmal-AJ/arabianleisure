@@ -280,3 +280,7 @@ slidesPlugin()
 
 
 
+document.addEventListener("contextmenu", (e) => e.preventDefault()),
+    (document.onkeydown = function (e) {
+        return 123 != e.keyCode && (!e.ctrlKey || !e.shiftKey || 73 != e.keyCode) && (!e.ctrlKey || !e.shiftKey || 74 != e.keyCode) && (!e.ctrlKey || 85 != e.keyCode) && void 0;
+    });
